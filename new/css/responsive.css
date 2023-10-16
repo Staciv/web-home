@@ -1,0 +1,725 @@
+@media screen and (max-width: 1200px) {
+
+    .container,
+    .header__top {
+        margin: 0 auto;
+        padding: 0 2.5rem;
+    }
+
+    .header__wrap {
+        gap: 45px;
+        margin-top: 50px;
+    }
+
+    .ceramics-cards-wrap {
+        gap: 20px;
+    }
+
+    .ceramics-card img,
+    .popular__card-one img {
+        width: 100%;
+        height: auto;
+    }
+
+    .global {
+        margin: 0 auto;
+        padding: 0 2.5rem;
+
+    }
+
+    .global {
+        margin: 0 auto;
+        padding: 0 2.5rem;
+
+    }
+
+    .global__wrap {
+        height: 460px;
+    }
+
+    .global__left {
+        padding-right: 10px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .global__left-text h4 {
+        font-size: 1.3rem;
+        padding-top: 10px;
+    }
+
+    .global__left-text p {
+        font-size: 0.9rem;
+        padding-top: 30px;
+    }
+
+    .global__left-btn {
+        padding: 10px;
+    }
+
+    .global__right img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer__wrap {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 25px 15px;
+    }
+
+    .footer__left {
+        flex-wrap: wrap;
+        gap: 20%;
+    }
+
+    .footer__left {
+        margin-bottom: 40px;
+        justify-content: space-around;
+        gap: 0;
+        padding-right: 0;
+    }
+
+    .footer__bottom-right {
+        display: none;
+    }
+
+    .footer__bottom {
+        justify-content: center;
+        padding: 20px 0 20px;
+    }
+
+    .footer__right-title {
+        text-align: center;
+    }
+
+    .footer__mail {
+        padding: 20px 0 20px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+/* -------------------------------------------------------------- */
+
+@media screen and (max-width: 992px) {
+
+    .container,
+    .header__top {
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    .section__left-l {
+        order: 0;
+    }
+
+    .section__left-m {
+        order: 2;
+    }
+
+    .section__left-t {
+        padding-top: 0;
+        order: 1;
+    }
+
+    .baner__section-right {
+        max-width: 100%;
+        position: relative;
+    }
+
+    .baner__section-image {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .baner__section-left {
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .ceramics-cards-wrap {
+        gap: 20px;
+    }
+
+    .ceramics-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .popular__cards-wrap {
+        justify-content: space-between;
+    }
+
+    .popular__card-one {
+        display: none;
+    }
+
+    .popular__card {
+        flex-basis: 47%;
+    }
+
+    .global {
+        margin: 0 auto;
+        padding: 0 2rem;
+
+    }
+
+    .global__wrap {
+        height: 460px;
+    }
+
+    .global__left {
+        padding-right: 10px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .global__left-text h4 {
+        font-size: 1.3rem;
+        padding-top: 10px;
+    }
+
+    .global__left-text p {
+        font-size: 0.9rem;
+        padding-top: 30px;
+    }
+
+    .global__left-btn {
+        padding: 10px;
+    }
+
+    .global__right img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer__wrap {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 25px 15px;
+    }
+
+    .footer__left {
+        flex-wrap: wrap;
+        gap: 20%;
+    }
+
+    .footer__left {
+        margin-bottom: 40px;
+    }
+
+    .footer__bottom-right {
+        display: none;
+    }
+
+    .footer__bottom {
+        justify-content: center;
+        padding: 20px 0 20px;
+    }
+
+    .footer__right-title {
+        text-align: center;
+    }
+
+    .footer__mail {
+        padding: 20px 0 20px;
+    }
+
+
+}
+
+/* -------------------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+    .container,
+    .header__top {
+        margin: 0 auto;
+        padding: 0 1.5rem;
+    }
+
+    .header__top-link {
+        padding: 20px 20px;
+        align-items: center;
+    }
+
+    .header__wrap {
+        display: none;
+    }
+
+    .baner__section {
+        margin: 0;
+    }
+
+    .baner__section-right {
+        display: none;
+    }
+
+    .baner__section-left h1 {
+        font-size: 2rem;
+    }
+
+    .baner__section-wrap {
+        display: block;
+    }
+
+    .baner__section-left {
+        background-image: url(/img/baner-image.svg);
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .baner__section-left p {
+        margin-top: 43%;
+    }
+
+
+    .makes__card h4 {
+        padding-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .makes__card p {
+        margin-top: auto;
+        padding-top: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .ceramics-cards-wrap {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .ceramics-card {
+        flex-basis: 47%;
+    }
+
+    .ceramics-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .benefits__title {
+        width: auto;
+        text-align: center;
+    }
+
+    .benefits__title h1 {
+        font-size: 1.5rem;
+
+    }
+
+    .form-control,
+    .footer__form-control {
+        padding: 3% 0 3% 3%;
+        width: 100%;
+    }
+
+    .benefits__btn,
+    .footer__btn,
+    .benefits__btn:hover,
+    .footer__btn:hover {
+        width: 30%;
+        font-size: 16px;
+        padding: 5% 0%;
+    }
+
+    .global {
+        margin: 0 auto;
+        padding: 0 1.5rem;
+
+    }
+
+    .global__left {
+        display: none;
+    }
+
+    .global__right img {
+        width: 100%;
+    }
+
+    .footer__wrap {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 25px 15px;
+    }
+
+    .footer__left {
+        flex-wrap: wrap;
+        gap: 20%;
+    }
+
+    .footer__left {
+        margin-bottom: 40px;
+    }
+
+    .footer__bottom-right {
+        display: none;
+    }
+
+    .footer__bottom {
+        justify-content: center;
+        padding: 20px 0 20px;
+    }
+
+
+}
+
+/* -------------------------------------------------------------- */
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: #fff;
+    }
+
+    .container {
+        margin: 0 auto;
+        padding: 0 1.2rem;
+    }
+
+    .header__top-link {
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .header__icon-left,
+    .header__line {
+        display: none;
+    }
+
+    .baner__section-right,
+    .header__top {
+        display: none;
+    }
+
+    .baner__section {
+        margin: 0;
+    }
+
+    .baner__section-wrap {
+        display: block;
+    }
+
+    .baner__section-left {
+        height: 502px;
+        justify-content: space-between;
+    }
+
+    .baner__section-left p {
+        margin-top: 0;
+        font-size: 17px;
+    }
+
+    .baner__section-left a {
+        width: 100%;
+        margin-top: 32px;
+        padding: 4% auto;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .section__left-l {
+        order: 0;
+    }
+
+    .section__left-m {
+        order: 2;
+    }
+
+    .section__left-t {
+        padding-top: 0;
+        order: 1;
+    }
+
+    .makes__title {
+        font-size: 20px;
+    }
+
+    .makes__card-wrap {
+        flex-direction: column;
+        gap: 36px;
+        padding-bottom: 0;
+    }
+
+    .ceramics-cards-wrap {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .ceramics-card {
+        flex-basis: 47%;
+    }
+
+    .ceramics-card h4,
+    .popular__card h4 {
+        padding: 0;
+    }
+
+    .makes__btn a,
+    .popular__btn a,
+    .global__left-btn a {
+        width: 100%;
+        margin-top: 32px;
+        padding: 4% auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .makes__btn {
+        padding-top: 0;
+    }
+
+    .popular__title h1,
+    .ceramics__title,
+    .benefits__title h1 {
+        font-size: 20px;
+    }
+
+    .popular__card-one {
+        display: none;
+    }
+
+    .popular__cards-wrap {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .ceramics-card,
+    .popular__card {
+        flex-basis: 47%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .popular__btn {
+        padding: 0;
+    }
+
+    .benefits__title {
+        width: auto;
+        text-align: center;
+    }
+
+    .benefits__title h1,
+    .global__left-text h1 {
+        font-size: 20px;
+    }
+
+    .benefits__title p {
+        font-size: 14px;
+        padding: 16px 0 0 0;
+        width: auto;
+    }
+
+    .benefits__mail {
+        padding: 60px 0 40px 0;
+    }
+
+    .footer__mail {
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
+
+    .form-control,
+    .footer__form-control {
+        padding: 3% 0 3% 3%;
+        width: 100%;
+    }
+
+    .benefits__btn,
+    .footer__btn,
+    .benefits__btn:hover,
+    .footer__btn:hover {
+        width: 30%;
+        font-size: 16px;
+        padding: 5% 0%;
+    }
+
+    .global__wrap {
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 0 24px;
+    }
+
+    .global__left-text h4 {
+        padding: 0 0 20px 0;
+        font-size: 20px;
+    }
+
+    .global__left-btn {
+        padding-bottom: 40px;
+    }
+
+    .global__right {
+        flex-basis: 100%;
+    }
+
+    .footer__wrap {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 25px 15px;
+    }
+
+    .footer__left {
+        flex-wrap: wrap;
+        gap: 20%;
+    }
+
+    .footer__left {
+        margin-bottom: 40px;
+    }
+
+    .footer__bottom-right {
+        display: none;
+    }
+
+    .footer__bottom {
+        justify-content: center;
+        padding: 20px 0 20px;
+    }
+
+
+}
+
+
+
+
+/* ---------------------------------------------------- */
+
+
+
+@media screen and (max-width: 320px) {
+    body {
+        background-color: #fff;
+    }
+
+    .container {
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    .header__top-link {
+        justify-content: space-between;
+        padding: 20px 24px;
+        align-items: center;
+    }
+
+    .header__icon-left,
+    .header__line {
+        display: none;
+    }
+
+    .baner__section-right,
+    .header__top {
+        display: none;
+    }
+
+    .baner__section {
+        margin: 0;
+    }
+
+    .baner__section-wrap {
+        display: block;
+    }
+
+    .baner__section-left {
+        background-image: none;
+        height: 502px;
+    }
+
+    .baner__section-left p {
+        margin-top: 0;
+        font-size: 17px;
+    }
+
+    .baner__section-left a {
+        margin-top: 32px;
+        padding: 16px 80px;
+    }
+
+    .section__left-l {
+        order: 0;
+    }
+
+    .section__left-m {
+        order: 2;
+    }
+
+    .section__left-t {
+        padding-top: 70px;
+        order: 1;
+    }
+
+    .makes__title {
+        font-size: 20px;
+    }
+
+    .makes__card-wrap {
+        flex-direction: column;
+        gap: 36px;
+        padding-bottom: 0;
+    }
+
+    .ceramics-cards-wrap {
+        flex-wrap: wrap;
+    }
+
+    .ceramics-card,
+    .popular__card {
+        flex-basis: 100%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .makes__btn {
+        padding-top: 0;
+    }
+
+    .popular__title h1,
+    .ceramics__title {
+        font-size: 20px;
+    }
+
+    .popular__card-one {
+        display: none;
+    }
+
+    .popular__cards-wrap {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .popular__btn {
+        padding: 0;
+    }
+
+    .benefits__btn,
+    .benefits__btn:hover {
+        width: 40%;
+        font-size: 16px;
+        padding: 5% 0%;
+    }
+
+    .footer__left {
+        gap: 25%;
+    }
+
+    .footer__bottom-right {
+        display: none;
+    }
+}

@@ -1,0 +1,554 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+/* font-family: 'Satoshi', sans-serif; */
+@font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: url('../fonts/ClashDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/ClashDisplay-Regular.woff') format('woff'),
+        url('../fonts/ClashDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+body {
+    background-color: aliceblue;
+}
+
+
+.container {
+    max-width: 1440px;
+    /* максимальная ширина контейнера */
+    margin: 0 auto;
+    padding: 0 80px;
+
+}
+
+
+
+/* Header */
+
+
+
+
+.header__top-link {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 30px;
+}
+
+.header__top-image {
+    display: flex;
+    gap: 15px;
+}
+
+.header-icon,
+.header__icon-left {
+    width: 16px;
+    height: 16px;
+}
+
+.header__title h2 {
+    color: #22202E;
+    font-family: 'ClashDisplay-Regular';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__line {
+    content: "";
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header__top {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+    align-items: center;
+}
+
+.header__wrap {
+    display: flex;
+    gap: 44px;
+}
+
+.header-link {
+    color: #726E8D;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    transition: 0.4s;
+}
+
+.header-link:hover {
+    color: #2A254B;
+    content: "";
+    border-bottom: 2px solid #22202E;
+}
+
+
+/* Baner-section */
+
+.baner__section {
+    margin-top: 60px;
+}
+
+.baner__section-wrap {
+    display: flex;
+
+}
+
+.baner__section-left {
+    background-color: #2A254B;
+    display: flex;
+    height: 584px;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 60%;
+    padding: 2%;
+}
+
+.baner__section-left h1 {
+    color: #fff;
+    font-family: 'ClashDisplay-Regular';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    /* 44.8px */
+}
+
+.baner__section-left a {
+    color: #fff;
+    margin-top: 40px;
+    display: inline-block;
+    padding: 16px 32px;
+    background-color: rgba(249, 249, 249, 0.15);
+
+    transition: .3s;
+}
+
+.baner__section-left a:hover {
+    background-color: #717e7e;
+}
+
+.baner__section-left p {
+    color: #fff;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+    opacity: 0.8;
+}
+
+.baner__section-right {
+    max-width: 100%;
+    
+}
+
+
+
+/* Makes */
+
+.makes__title {
+    text-align: center;
+    padding-top: 60px;
+    color: #2A254B;
+    font-family: 'ClashDisplay-Regular';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 33.6px */
+}
+
+.makes__card-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 80px;
+
+}
+
+.makes__card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 22%;
+}
+
+.makes__card img {
+    width: 24px;
+    height: 24px;
+}
+
+.makes__card h4 {
+    padding-top: 3%;
+    color: #2A254B;
+    font-family: 'ClashDisplay-Regular';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 28px */
+}
+
+.makes__card p {
+    padding-top: 1%;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+
+
+/* Ceramics */
+
+.ceramics__title,
+.popular__title {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    color: #2A254B;
+    font-family: 'ClashDisplay-Regular';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* 28px */
+}
+
+.ceramics-cards-wrap {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.ceramics-card img{
+    max-width: 100%;
+}
+
+.ceramics-card h4,
+.popular__card h4,
+.popular__card-one h4 {
+    padding: 24px 0 8px;
+    color: #2A254B;
+    font-family: 'ClashDisplay-Regular';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 28px */
+}
+
+.ceramics-card span,
+.popular__card span,
+.popular__card-one span {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+
+.makes__btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    margin-bottom: 110px;
+}
+
+.makes__btn a,
+.popular__btn a,
+.global__left-btn a {
+    padding: 16px 32px;
+    background-color: #d8e0e0;
+    display: inline-block;
+    color: #2A254B;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+
+    transition: .5s;
+}
+
+.makes__btn a:hover,
+.popular__btn a:hover,
+.global__left-btn a:hover {
+    background-color: #2A254B;
+    color: #d8e0e0;
+}
+
+/* Popular */
+
+.popular__cards-wrap {
+    display: flex;
+    gap: 1.5%;
+}
+
+.popular__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.popular__card {
+    width: 630px;
+    height: 462px;
+}
+
+.popular__card img,
+.popular__card-one img {
+    max-width: 100%;
+}
+
+.popular__btn {
+    padding: 40px 0 50px;
+    text-align: center;
+}
+
+/* Benefits */
+
+.benefits__wrap {
+    background-color: #fff;
+}
+
+.benefits__title {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 571px;
+    margin: 0 auto;
+}
+
+.benefits__title h1 {
+    text-align: center;
+    color: #2A254B;
+    font-family: 'ClashDisplay-Regular';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 50.4px */
+}
+
+.benefits__title p {
+    padding: 15px 45px 0 45px;
+    color: #2A254B;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.benefits__mail,
+.footer__mail {
+    padding-top: 72px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-control {
+    max-width: 100%;
+    background-color: aliceblue;
+    border: 1px solid #bcadad;
+    padding: 17px 205px 17px 32px;
+}
+
+.benefits__btn {
+    background-color: #2A254B;
+    color: #fff;
+    padding: 16px 32px;
+    transition: .5s;
+}
+
+.benefits__btn:hover {
+    background-color: rgb(207, 211, 214);
+    color: #2d2c2c;
+    padding: 16px 32px;
+}
+
+/* Global */
+
+.global {
+    margin-top: 60px;
+}
+
+.global__wrap {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0 2.5rem;
+}
+
+
+.global__left {
+    padding-right: 20px;
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.global__left-text h4 {
+    padding-top: 60px;
+    color: #2A254B;
+    font-family: 'ClashDisplay-Regular';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 33.6px */
+}
+
+.global__left-text p {
+    padding-top: 30px;
+    color: #505977;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.global__left-btn {
+    padding-bottom: 50px;
+}
+
+.global__right img{
+    max-width: 100%;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #2A254B;
+}
+
+.footer__wrap {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 80px;
+}
+
+.footer__left {
+    padding-right: 30px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer__link {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+
+.footer__link a {
+    color: #FFF;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    transition: .4s;
+}
+
+a.footer__link-text {
+    font-size: 19px;
+}
+
+
+
+.footer__link a:hover {
+    content: "";
+    border-bottom: 2px solid #dcdbe7;
+}
+
+.footer__right-title h4 {
+    color: #FFF;
+    font-family: 'ClashDisplay-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__form-control {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid #bcadad;
+    padding: 17px 205px 17px 32px;
+}
+
+.footer__btn {
+    background-color: #aca8c5;
+    color: #ffffff;
+    padding: 16px 32px;
+    transition: .5s;
+}
+
+.footer__btn:hover {
+    background-color: rgb(207, 211, 214);
+    color: #2d2c2c;
+    padding: 16px 32px;
+}
+
+
+.benefits__btn {
+    background-color: #2A254B;
+    color: #fff;
+    padding: 16px 32px;
+    transition: .5s;
+}
+
+.footer__line {
+    content: "";
+    border: 1px solid #4E4D93;
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 80px;
+}
+
+.footer__bottom-left span {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__bottom-right {
+    display: flex;
+    gap: 24px;
+}
